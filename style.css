@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to left, #f0f2f6 0%, #fff 25%, #fff 75%, #f0f2f6 100%);
+  font-size: 100%;
+  color: #465567;
+}
+.fileSummaryReport {
+  width: 45rem;
+}
+.fileSummaryReport h2 {
+  text-align: center;
+}
+.label,
+.value {
+  display: inline-block;
+  width: 20rem;
+  box-sizing: content-box;
+}
+.label {
+  text-align: right;
+  padding-right: 2rem;
+}
